@@ -27,14 +27,14 @@ This is the backend for an e-commerce website, providing APIs to manage products
 
 # Products
 - GET /api/products/ - Get all products
--GET /api/products/id/:id - Get product by ID
--GET /api/products/category/:category - Get products by category
--GET /api/products/subcategory/:subcategory - Get products by subcategory
--GET /api/products/name/:name - Get products by name
--GET /api/products/random - Get random products
--GET /api/products/lowtohigh - Get products sorted by price (low to high)
--GET /api/products/category/:category/lowtohigh - Get products by category sorted by price (low to high)
--GET /api/products/category/:category/hightolow - Get products by category sorted by price (high to low)
+- GET /api/products/id/:id - Get product by ID
+- GET /api/products/category/:category - Get products by category
+- GET /api/products/subcategory/:subcategory - Get products by subcategory
+- GET /api/products/name/:name - Get products by name
+- GET /api/products/random - Get random products
+- GET /api/products/lowtohigh - Get products sorted by price (low to high)
+- GET /api/products/category/:category/lowtohigh - Get products by category sorted by price (low to high)
+- GET /api/products/category/:category/hightolow - Get products by category sorted by price (high to low)
 
 # Orders
 - POST /api/orders/ - Create a new order
